@@ -19,7 +19,6 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    
 }
 
 ul {
@@ -157,4 +156,82 @@ p {
     object-fit: contain;
     box-shadow: -62px 12px 122px -69px rgba(0,0,0,0.75);
 
+}
+
+
+/* footer */
+    /* social media icons */
+.main-footer{
+    background-color: #d9d9d9 ;
+}
+.footer-list .item{
+    padding: 15px;
+}
+.main-footer .footer-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2rem;
+}
+
+.socail-media{
+    font-size: 45px;
+    text-align: left;
+    margin-left: 45px;
+}
+.socail-media .fab{
+    margin-right: 15px;
+    border-radius:50%;
+    padding: 0.9rem;
+    text-align: center;
+    transition: transform 250ms;
+    
+}
+.socail-media .instagram{
+    color: #bc2a8d; color: rgb(188, 42, 141); 
+    
+}
+.socail-media .linkedin{
+    color: #007bb6; color: rgb(0, 123, 182); 
+}
+.socail-media .github{
+    color: #000000;
+}
+
+.socail-media .fab:hover{
+    transform: translateY(-10px);
+}
+.socail-media .github .fab:hover{
+    color: #0b2238;
+    box-shadow: 0 0 24px 0 black;
+
+}
+.socail-media .instagram .fab:hover{
+    color: #650000;
+    box-shadow: 0 0 24px 0 #ad2e18;
+
+}
+.socail-media .linkedin .fab:hover{
+    color: #01264b;
+    box-shadow: 0 0 24px 0 #4183c4;
+
+}
+    /* name */
+
+.footer-list .name {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    box-shadow: inset 0px 0px 28px -7px rgba(0,0,0,0.29);
+}
+.footer-list .student_number {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    box-shadow: inset 0px 0px 28px -7px rgba(0,0,0,0.29);
 }
