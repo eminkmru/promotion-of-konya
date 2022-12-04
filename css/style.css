@@ -1,3 +1,4 @@
+@import url("query.css");
 *{
     margin : 0;
     padding: 0;
@@ -70,6 +71,9 @@ p {
     display: inline-block;
     text-align: center;
     
+}
+.main-nav__item:last-child{
+    display: none;
 }
 
 .main-nav a:hover{

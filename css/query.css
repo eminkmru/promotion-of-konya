@@ -1,0 +1,43 @@
+@media (max-width: 600px){
+    .main-nav__item {
+        display: none;
+        padding-top: 30px;
+        text-align: right;
+    }
+    .main-nav__item:last-child{
+        display: block;
+    }
+    .responsive .main-nav__item{
+        display: block;
+        text-align: center;
+    }
+    .responsive .main-nav__items{
+        margin-top: 20px;
+    }
+    .responsive .main-nav{
+        display: block;
+    }
+    .responsive .main-nav__item:last-child{
+        position: absolute;
+        right: 40px;
+        top: 6px;
+    }
+    .main-nav .logo{
+        position:absolute;
+    }
+}
+
+@media (max-width: 768px){
+    *{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.3rem !important;
+    }
+    .right p{
+        font-size: 1.5rem !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+}
