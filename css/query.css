@@ -1,3 +1,25 @@
+
+@media (max-width:1200px){
+    .images .articles-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 768px){
+    *{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.3rem !important;
+    }
+    .right p{
+        font-size: 1.5rem !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+
+}
 @media (max-width: 600px){
     .main-nav__item {
         display: none;
@@ -25,19 +47,15 @@
     .main-nav .logo{
         position:absolute;
     }
-}
+    .images .articles-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .images .card{
+        max-width: 400px;
+    }
+    .articles-container{
+        position: relative;
+    }
 
-@media (max-width: 768px){
-    *{
-        font-size: 1.3rem;
-    }
-    p{
-        font-size: 1.3rem !important;
-    }
-    .right p{
-        font-size: 1.5rem !important;
-    }
-    h1{
-        font-size: 3rem !important;
-    }
 }
