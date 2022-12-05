@@ -74,6 +74,11 @@ p {
 .main-nav__item:last-child{
     display: none;
 }
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
 .main-nav a:hover{
     color: #003300;
@@ -98,6 +103,7 @@ p {
     background-repeat: no-repeat;
     object-fit: contain;
     position: relative;
+    box-shadow: inset 1px 1px 36px 15px rgba(0,0,0,0.32);
 }
 .img-head h1{
     position: absolute;

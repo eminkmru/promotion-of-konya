@@ -2,7 +2,7 @@
 @media (max-width:1200px){
     .images .articles-container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr)!important;
     }
 }
 @media (max-width: 768px){
@@ -45,17 +45,17 @@
         top: 6px;
     }
     .main-nav .logo{
-        position:absolute;
+        position:absolute!important;
     }
     .images .articles-container{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        display: grid!important;
+        grid-template-columns: repeat(1,1fr)!important;
     }
     .images .card{
-        max-width: 400px;
+        max-width: 400px!important;
     }
     .articles-container{
-        position: relative;
+        position: relative!important;
     }
 
 }
