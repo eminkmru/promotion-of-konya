@@ -19,6 +19,18 @@
         font-size: 3rem !important;
     }
 
+    .cards .card {
+        max-height: 850px!important;
+    }
+    .cards .img-border-right{
+        border-right: none;
+        border-bottom: 5px solid #650000;
+    }
+    .cards .img-border-left{
+        border-left: none;
+        border-top: 5px solid #650000;
+    }
+
 }
 @media (max-width: 600px){
     .main-nav__item {

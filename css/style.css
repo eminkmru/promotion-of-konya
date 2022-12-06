@@ -79,12 +79,21 @@ p {
     color: white;
     font-weight: bold;
 }
-
-.main-nav a:hover{
+.main-nav .main-nav__item{
+    
+    transition: transform 250ms;
+}
+.main-nav .main-nav__item a:hover{
     color: #003300;
+}
+.main-nav .main-nav__item:hover{
+    transform: translateY(-5px);
+
     padding-bottom: 7px;
     border-bottom: 2px solid #4d0000 ;
     border-radius: 2px;
+
+
 }
 
 
@@ -299,11 +308,11 @@ p {
 /* section information */
 
 .history-section{
-    background-color:#05217a;
+    background-color:#082890;
     padding: 50px;
     color: white;
     border-radius: 15px;
-    box-shadow: inset 0px 0px 81px 21px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 81px -5px rgba(0,0,0,0.75);
 }   
 .history-section .history-title{
     border-bottom: 1px solid white;
@@ -330,4 +339,38 @@ p {
     width: 39%;
     text-align: center;
     border-bottom: 1px solid white;
+}
+
+
+            /* touristic places */
+
+
+.cards img{
+    width: 100%;
+    height: 100%;
+    max-height:400px ;
+}
+.cards .card-body{
+    color: white;
+    padding-inline: 40px;
+}
+.cards .card-bold{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.cards .card{
+    border-radius: 5px;
+}
+
+.cards .img-border-right{
+    border-right: 5px solid #650000;
+}
+.cards .img-border-left{
+    border-left: 5px solid #650000;
+}
+.cards .card-right{
+    box-shadow: 11px 11px 47px -11px rgba(0,0,0,0.75);
+}
+.cards .card-left{
+    box-shadow: -11px 11px 47px -11px rgba(0,0,0,0.75);
 }
