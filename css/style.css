@@ -283,6 +283,7 @@ p {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .images .images-title h3{
+    background-color: #05217a;
     padding: 8px 25px 8px 25px;
     margin-left: 10px;
     display: inline-block;
@@ -290,4 +291,43 @@ p {
     color: white;
     font-style: italic;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+                        /* HİSTORY */
+/* section information */
+
+.history-section{
+    background-color:#05217a;
+    padding: 50px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 81px 21px rgba(0,0,0,0.75);
+}   
+.history-section .history-title{
+    border-bottom: 1px solid white;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+    color: #4d0000;
+    text-shadow: 1px 1px 2px #4d0000, 0 0 1em #4d0000, 0 0 0.2em blue;
+}
+.history-section img{
+    height: 300px;
+}
+.history-section__images{
+    position: relative;
+}
+.img-caption{
+    position: absolute;
+    bottom: 13px;
+    width: 40%;
+    text-align: center;
+    background-color: #475b6e;      
+}
+.history-section h3{
+    width: 39%;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
