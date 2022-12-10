@@ -30,6 +30,9 @@
         border-left: none;
         border-top: 5px solid #650000;
     }
+    .foods-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
 
 }
 @media (max-width: 600px){
@@ -68,6 +71,9 @@
     }
     .articles-container{
         position: relative!important;
+    }
+    .foods-cards{
+        grid-template-columns: repeat(1,1fr);
     }
 
 }
