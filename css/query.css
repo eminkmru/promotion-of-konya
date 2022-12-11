@@ -77,3 +77,8 @@
     }
 
 }
+@media (max-width: 992px){
+    .foods-cards p{
+        font-size: 1.1rem;
+    }
+}

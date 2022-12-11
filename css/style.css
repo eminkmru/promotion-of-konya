@@ -380,11 +380,17 @@ p {
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
 }
+.foods-cards p {
+    font-size: 1.4rem;
+}
 .foods-cards .card{
     margin: 15px;
 }
 .tarif-ul{
     list-style:decimal;
+}
+.tarif-ul li{
+    padding-bottom: 8px;
 }
 .tarif-ul-madde{
     list-style: circle;
