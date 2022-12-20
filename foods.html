@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="../Proje/css/bootstrap.min.css">
     <link rel="stylesheet" href="../Proje/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/query.css">
+    <link rel="stylesheet" href="../Proje/css/style.css">
+    <link rel="stylesheet" href="../Proje/css/query.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&family=Nerko+One&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../Proje/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
                         <li class="main-nav__item"><a href="history.html">Tarihçe</a></li>
                         <li class="main-nav__item"><a href="touristic-places.html" >Turistlik Yerler</a></li>
                         <li class="main-nav__item"><a href="foods.html" class="active">Yemekler</a></li>
-                        <li class="main-nav__item"><a href="#">İklim</a></li>
+                        <li class="main-nav__item"><a href="climate.html">İklim</a></li>
                         <li class="main-nav__item"><a href="#">
                             <a href="#" onclick="displayMenu()"><i class="fa fa-bars fa-2x"></i></a>
                         </a></li>
@@ -530,6 +531,115 @@
                   </li>
                 </ul>
           </div>
+          <div class="card mb-5" style="min-height:200px ; ">
+            <img src="./img/kaygana.jpg" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+                <h2 class="card-title">Kaygana<h2>
+                <p class="card-text">Sadece un, süt, yumurta ve kabartma tozuyla yapılan bu hamurun içine dilediğiniz iç harcı koymakta özgürsünüz. Trabzon'dan sıçrayarak Konya'ya kadar uzanan bir lezzet bizce de bir alkışı hak ediyor. </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item p-3" >
+                    <div class="modal fade" id="exampleModalToggle_kaygana" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content p-3">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel"><h1>Kaygana</h1></h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tarif-ul-madde">
+                                  <li>4 yumurta
+                                  </li>
+                                  <li>1 su bardağı un
+                                    </li>
+                                  <li>1 su bardağı süt
+                                    </li>
+                                  <li>maydanoz</li>
+                                  <li>dereotu</li>
+                                  <li>yeşil soğan (yeşillikleri isteğinize bağlı ekleyin)
+                                  </li>
+                                  <li>tuz</li>
+                                </ul>
+                                <br>
+                                <br>
+                                Tarif;
+                                <ul class="tarif-ul">
+                                  <li>Öncelikle unu, sütü ve tuzu karıştırın.
+                                  </li>
+                                  <li>Sonra yumurtaları ekleyin.
+                                  </li>
+                                  <li>En son yeşillikleri ekleyip çırpın.
+                                  </li>
+                                  <li>Yanmaz tavaya 2 yemek kaşığı sıvı yağ alıp kızdırın.
+                                  </li>
+                                  <li>Ardından hamuru döküp arkalı önlü kızartın.
+                                  </li>
+                                  <li>Hamur bitene kadar aynı işlemi yapın.
+                                  </li>
+                                  <li>Hamuru ister ince isterseniz kalın döküp pişirebilirsiniz (ben ince döktüm hamuru).
+                                  </li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                      <a class="btn btn-secondary" data-bs-toggle="modal" href="#exampleModalToggle_kaygana" role="button">Kaygana Tarifi</a>
+                      <a href="https://www.youtube.com/watch?v=OJpOEkOS-Mk&ab_channel=NefisYemekTarifleri" target="_blank" class="btn btn-danger">Kaygana Tarifi</a>
+                      
+                </li>
+              </ul>
+          </div>
+          <div class="card mb-5" style="min-height:200px ; ">
+            <img src="./img/kayisili-yemegi-7.jpg" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+                <h2 class="card-title">Kayısılı Yemeği<h2>
+                <p class="card-text">Konya yöresine ait bir yemektir çok tüketilir özellikle düğünlerde mutlaka olması gereken bir yemektir lütfen emeğe saygı duyalım güzel tadı olan farklı lezzet arayanlara kesinlikle tavsiye ediyorum bunu düğünlerde özellikle kayısı tüm kurutulur çekirdekli olarak kaynatılır.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item p-3" >
+                    <div class="modal fade" id="exampleModalToggle_kaysılı" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content p-3">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel"><h1>Kaysılı</h1></h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tarif-ul-madde">
+                                  <li>1 yemek kaşığı tereyağı
+                                  </li>
+                                  <li>1 tatlı kaşığı salça
+                                  </li>
+                                  <li>1 çay bardağı pekmez
+                                  </li>
+                                  <li>Tuz
+                                    </li>
+                                  <li>250 gr kuşbaşı yada kemikli et
+                                  </li>
+                                  <li>1 kase kuru kayısı
+                                  </li>
+                                </ul>
+                                <br>
+                                <br>
+                                Tarif;
+                                <ul class="tarif-ul">
+                                  <li>İlk öncelikle etlerimizi tereyağında pişirelim daha sonra salçayı ilave edip suyunu ekleyelim.
+                                  </li>
+                                  <li>Etler yumuşayınca pekmezi ilave edelim kıvama geldikten sonra kuru kayısımızı yıkayıp ilave edelim kayısılar yumuşayana kadar kaynasın ama dikkatli olun erimesin tüm tüm dursun.
+                                  </li>
+                                  <li>Kayısılar da pişince altını kapatalım dinlenmeye bırakalım daha sonra servis edebilirsiniz.
+                                  </li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                      <a class="btn btn-secondary" data-bs-toggle="modal" href="#exampleModalToggle_kaysılı" role="button">Kaysılı Tarifi</a>
+                      <a href="https://www.youtube.com/watch?v=qERcdesvMPw&ab_channel=İdilYazar" target="_blank" class="btn btn-danger">Kaysılı Tarifi</a>
+                      
+                </li>
+              </ul>
+          </div>
         </div>
     
 
@@ -565,7 +675,5 @@
         }
     </script>
     <script src="js/index.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

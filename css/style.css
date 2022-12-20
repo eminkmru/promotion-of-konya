@@ -140,7 +140,7 @@ p {
 
 }
 
-.right{
+.explanation .right{
     background-color: rgba(140, 140, 140, .2);
     border-radius: 40px;
     padding: 20px;
@@ -149,14 +149,14 @@ p {
     box-shadow: 33px 12px 57px -38px rgba(0,0,0,0.75);
 
 }
-.right a{
+.explanation .right a{
     color: #001a00;
 }
-.right a:hover{
+.explanation .right a:hover{
     color: rgb(12, 12, 173);
     text-decoration: underline;
 }
-.right p{
+.explanation .right p{
     font-size: 1.8rem !important;
 }
 
@@ -308,7 +308,7 @@ p {
 /* section information */
 
 .history-section{
-    background-color:#082890;
+    background-color:#c9c9c9;
     padding: 50px;
     color: white;
     border-radius: 15px;
@@ -320,7 +320,7 @@ p {
     display: inline-block;
     font-weight: bold;
     color: #4d0000;
-    text-shadow: 1px 1px 2px #4d0000, 0 0 1em #4d0000, 0 0 0.2em blue;
+    /* text-shadow: 1px 1px 2px #4d0000, 0 0 1em #4d0000, 0 0 0.2em blue; */
 }
 .history-section img{
     height: 300px;
@@ -407,4 +407,33 @@ p {
 .modal-dialog iframe{
     margin: 0 auto;
     display: block;
+}
+
+
+
+
+
+                /* CLIMATE */
+
+.clim-inf{
+    background-color: #f2f2f2;
+}
+
+.clim-inf td{
+    padding-inline: 15px;   
+}
+.clim-inf .last-row{
+    border-left:2px solid blue;
+}
+.clim-inf .tbl-color{
+    background-color: rgb(199, 193, 193);
+}
+.manzara-photo img{
+    height: 400px;
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+}
+.manzara-photo{
+    text-align: center;
 }
